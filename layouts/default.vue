@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <Nuxt />
-  </div>
+  <Nuxt />
 </template>
 
 <style>
@@ -16,6 +14,13 @@ html {
   font-family: 'Nunito', sans-serif;
   font-size: 14px;
   word-spacing: 1px;
+}
+
+html,
+body,
+#__nuxt,
+#__layout {
+  height: 100%;
 }
 
 *,
