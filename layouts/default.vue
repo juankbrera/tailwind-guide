@@ -1,6 +1,5 @@
 <template>
   <div>
-    Hola
     <Nuxt />
   </div>
 </template>
