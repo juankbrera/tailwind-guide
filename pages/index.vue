@@ -1,9 +1,5 @@
 <template>
-  <div class="container bg-gray-200">asd</div>
+  <div>
+    <Header />
+  </div>
 </template>
-
-<script>
-export default {}
-</script>
-
-<style></style>
