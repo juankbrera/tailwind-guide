@@ -34,6 +34,8 @@ export default {
             'rounded-md',
             'rounded-lg',
             'rounded-xl',
+            'rounded-2xl',
+            'rounded-3xl',
             'rounded-full',
           ],
         },
@@ -59,8 +61,8 @@ export default {
         },
         width: {
           title: 'Width',
-          gridClasses: 'grid-cols-5',
-          utilities: ['border', 'border-2', 'border-4', 'border-6', 'border-8'],
+          gridClasses: 'grid-cols-4',
+          utilities: ['border', 'border-2', 'border-4', 'border-8'],
         },
         style: {
           title: 'Style',
