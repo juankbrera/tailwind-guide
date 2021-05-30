@@ -44,6 +44,21 @@ li {
   @apply mb-2;
 }
 
-.bordered-box {
-  @apply border-2 border-black p-4 m-4 shadow-lg rounded-xl bg-gray-200;
+table,
+td,
+th {
+  @apply border-2 border-black bg-white;
+}
+
+td,
+th {
+  @apply px-2 py-1;
+}
+
+th {
+  @apply bg-black text-white font-black;
+}
+
+table {
+  @apply w-full mb-6;
 }
