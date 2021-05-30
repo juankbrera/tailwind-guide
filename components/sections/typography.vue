@@ -76,8 +76,6 @@
   </ui-section-container>
 </template>
 
-<style scoped></style>
-
 <script>
 export default {
   data() {
