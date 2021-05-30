@@ -17,7 +17,7 @@
       <li><a href="#typography" class="hover:underline">Typography</a></li>
       <li><a href="#colors" class="hover:underline">Colors</a></li>
       <li><a href="#borders" class="hover:underline">Borders</a></li>
-      <li><a href="" class="hover:underline">Sizing</a></li>
+      <li><a href="#sizing" class="hover:underline">Sizing</a></li>
       <li><a href="" class="hover:underline">Spacing</a></li>
       <li><a href="" class="hover:underline">Breakpoints</a></li>
       <li><a href="" class="hover:underline">States</a></li>
