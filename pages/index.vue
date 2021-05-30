@@ -3,5 +3,6 @@
     <sections-intro></sections-intro>
     <sections-typography></sections-typography>
     <sections-colors></sections-colors>
+    <sections-borders></sections-borders>
   </div>
 </template>
