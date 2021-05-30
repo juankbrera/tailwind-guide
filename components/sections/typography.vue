@@ -1,5 +1,5 @@
 <template>
-  <ui-section-container>
+  <ui-section-container id="typography">
     <ui-section-title>Typography</ui-section-title>
 
     <ui-section-subtitle>
@@ -75,6 +75,8 @@
     </ui-sample-grid>
   </ui-section-container>
 </template>
+
+<style scoped></style>
 
 <script>
 export default {

@@ -1,5 +1,5 @@
 <template>
-  <ui-section-container>
+  <ui-section-container id="colors">
     <ui-section-title>Colors</ui-section-title>
     <p>
       The following color palette can be applied to backgrounds (E.g.

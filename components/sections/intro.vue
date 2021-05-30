@@ -1,6 +1,6 @@
 <template>
   <div>
-    <ui-section-container>
+    <ui-section-container id="whats-tailwind">
       <ui-section-title>What's Tailwind</ui-section-title>
       <img
         alt="tailwind"
@@ -34,7 +34,7 @@
       </p>
     </ui-section-container>
 
-    <ui-section-container>
+    <ui-section-container id="utility-first">
       <ui-section-title>Utility-first CSS</ui-section-title>
 
       <p>
