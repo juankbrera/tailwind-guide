@@ -130,7 +130,7 @@ export default {
           ],
         },
         otherUtilities: {
-          title: 'Other Typography Utilities',
+          title: 'Other Utilities',
           gridClasses: 'grid-cols-6',
           utilities: [
             'italic',
