@@ -5,5 +5,6 @@
     <sections-colors></sections-colors>
     <sections-borders></sections-borders>
     <sections-sizing></sections-sizing>
+    <sections-spacing></sections-spacing>
   </div>
 </template>
