@@ -8,9 +8,9 @@
     <table>
       <thead>
         <tr>
-          <th>Width Utility</th>
-          <th>Height Utility</th>
-          <th>Maximun Height Utility</th>
+          <th>Width Utilities</th>
+          <th>Height Utilities</th>
+          <th>Maximun Height Utilities</th>
           <th>Size</th>
         </tr>
       </thead>
