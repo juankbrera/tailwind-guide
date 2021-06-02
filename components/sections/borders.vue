@@ -26,7 +26,7 @@ export default {
     return {
       borders: {
         radius: {
-          title: 'Radius',
+          title: 'Border Radius',
           gridClasses: 'grid-cols-4',
           utilities: [
             'rounded-sm',
@@ -40,7 +40,7 @@ export default {
           ],
         },
         radiusSides: {
-          title: 'Radius (sides)',
+          title: 'Border Radius (sides)',
           gridClasses: 'grid-cols-4',
           utilities: [
             'rounded-l-xl',
@@ -50,7 +50,7 @@ export default {
           ],
         },
         radiusCorners: {
-          title: 'Radius (corners)',
+          title: 'Border Radius (corners)',
           gridClasses: 'grid-cols-4',
           utilities: [
             'rounded-tl-xl',
@@ -60,12 +60,12 @@ export default {
           ],
         },
         width: {
-          title: 'Width',
+          title: 'Border Width',
           gridClasses: 'grid-cols-4',
           utilities: ['border', 'border-2', 'border-4', 'border-8'],
         },
         style: {
-          title: 'Style',
+          title: 'Border Style',
           gridClasses: 'grid-cols-3',
           utilities: ['border-solid', 'border-dashed', 'border-dotted'],
         },
