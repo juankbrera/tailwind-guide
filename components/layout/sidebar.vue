@@ -19,8 +19,8 @@
       <li><a href="#borders" class="hover:underline">Borders</a></li>
       <li><a href="#sizing" class="hover:underline">Sizing</a></li>
       <li><a href="#spacing" class="hover:underline">Spacing</a></li>
-      <li><a href="" class="hover:underline">Breakpoints</a></li>
-      <li><a href="" class="hover:underline">States</a></li>
+      <li><a href="#breakpoints" class="hover:underline">Breakpoints</a></li>
+      <li><a href="#states" class="hover:underline">States</a></li>
     </ul>
 
     <p class="font-bold mt-6 mb-2">Advance CSS concepts</p>
