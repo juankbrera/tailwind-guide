@@ -12,7 +12,7 @@
       </li>
     </ul>
 
-    <p class="font-bold mt-6 mb-2">Commonly Used</p>
+    <p class="font-bold mt-6 mb-2">Commonly Used Utilities</p>
     <ul class="ml-4 list-disc list-inside">
       <li><a href="#typography" class="hover:underline">Typography</a></li>
       <li><a href="#colors" class="hover:underline">Colors</a></li>
@@ -20,12 +20,7 @@
       <li><a href="#sizing" class="hover:underline">Sizing</a></li>
       <li><a href="#spacing" class="hover:underline">Spacing</a></li>
       <li><a href="#breakpoints" class="hover:underline">Breakpoints</a></li>
-      <li><a href="#states" class="hover:underline">States</a></li>
-    </ul>
-
-    <p class="font-bold mt-6 mb-2">Advance CSS concepts</p>
-    <ul class="ml-4 list-disc list-inside">
-      <li><a href="" class="hover:underline">Inline vs Block</a></li>
+      <li><a href="#states" class="hover:underline">Hover & Focus</a></li>
       <li><a href="" class="hover:underline">Flexbox</a></li>
       <li><a href="" class="hover:underline">Grid</a></li>
     </ul>
