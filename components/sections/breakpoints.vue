@@ -38,9 +38,3 @@
     </ui-code-block>
   </ui-section-container>
 </template>
-
-<script>
-export default {
-  data() {},
-}
-</script>
