@@ -7,5 +7,6 @@
     <sections-sizing></sections-sizing>
     <sections-spacing></sections-spacing>
     <sections-breakpoints></sections-breakpoints>
+    <sections-states></sections-states>
   </div>
 </template>
