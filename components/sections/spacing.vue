@@ -29,7 +29,7 @@
         :key="example.title"
         class="flex items-center justify-center"
       >
-        <div class="flex bg-gray-300 rounded-xl w-full">
+        <div class="flex bg-gray-200 rounded-xl w-full">
           <ui-sample-bordered-box class="w-full h-48" :class="example.utility">
             <p>{{ example.utility }}</p>
             <p>{{ example.title }}</p>
@@ -48,7 +48,7 @@
         class="flex items-center justify-center"
       >
         <div
-          class="flex bg-gray-300 rounded-xl w-full"
+          class="flex bg-gray-200 rounded-xl w-full"
           :class="example.utility"
         >
           <ui-sample-bordered-box class="w-full h-48">
