@@ -1,7 +1,7 @@
 <template>
-  <ui-bordered-box
+  <ui-box-bordered
     class="text-center flex flex-col items-center justify-center"
   >
     <slot />
-  </ui-bordered-box>
+  </ui-box-bordered>
 </template>

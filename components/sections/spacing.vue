@@ -30,10 +30,10 @@
         class="flex items-center justify-center"
       >
         <div class="flex bg-gray-200 rounded-xl w-full">
-          <ui-sample-bordered-box class="w-full h-48" :class="example.utility">
+          <ui-sample-box-bordered class="w-full h-48" :class="example.utility">
             <p>{{ example.utility }}</p>
             <p>{{ example.title }}</p>
-          </ui-sample-bordered-box>
+          </ui-sample-box-bordered>
         </div>
       </div>
     </ui-sample-grid>
@@ -51,10 +51,10 @@
           class="flex bg-gray-200 rounded-xl w-full"
           :class="example.utility"
         >
-          <ui-sample-bordered-box class="w-full h-48">
+          <ui-sample-box-bordered class="w-full h-48">
             <p>{{ example.utility }}</p>
             <p>{{ example.title }}</p>
-          </ui-sample-bordered-box>
+          </ui-sample-box-bordered>
         </div>
       </div>
     </ui-sample-grid>

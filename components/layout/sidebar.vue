@@ -1,5 +1,5 @@
 <template>
-  <ui-bordered-box>
+  <ui-box-bordered>
     <p class="font-bold mb-2">Concepts</p>
     <ul class="ml-4 list-disc list-inside">
       <li>
@@ -24,5 +24,5 @@
       <li><a href="" class="hover:underline">Flexbox</a></li>
       <li><a href="" class="hover:underline">Grid</a></li>
     </ul>
-  </ui-bordered-box>
+  </ui-box-bordered>
 </template>

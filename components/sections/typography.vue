@@ -6,46 +6,46 @@
       {{ typography.fontSize.title }}
     </ui-section-subtitle>
     <ui-sample-grid :class="typography.fontSize.gridClasses">
-      <ui-sample-bordered-box
+      <ui-sample-box-bordered
         v-for="utility in typography.fontSize.utilities"
         :key="utility"
         :class="utility"
       >
         {{ utility }}
-      </ui-sample-bordered-box>
+      </ui-sample-box-bordered>
     </ui-sample-grid>
 
     <ui-section-subtitle>
       {{ typography.fontWeight.title }}
     </ui-section-subtitle>
     <ui-sample-grid :class="typography.fontWeight.gridClasses">
-      <ui-sample-bordered-box
+      <ui-sample-box-bordered
         v-for="utility in typography.fontWeight.utilities"
         :key="utility"
         :class="utility"
       >
         {{ utility }}
-      </ui-sample-bordered-box>
+      </ui-sample-box-bordered>
     </ui-sample-grid>
 
     <ui-section-subtitle>
       {{ typography.letterSpacing.title }}
     </ui-section-subtitle>
     <ui-sample-grid :class="typography.letterSpacing.gridClasses">
-      <ui-sample-bordered-box
+      <ui-sample-box-bordered
         v-for="utility in typography.letterSpacing.utilities"
         :key="utility"
         :class="utility"
       >
         {{ utility }}
-      </ui-sample-bordered-box>
+      </ui-sample-box-bordered>
     </ui-sample-grid>
 
     <ui-section-subtitle>
       {{ typography.lineHeight.title }}
     </ui-section-subtitle>
     <ui-sample-grid :class="typography.lineHeight.gridClasses">
-      <ui-sample-bordered-box
+      <ui-sample-box-bordered
         v-for="utility in typography.lineHeight.utilities"
         :key="utility"
         :class="utility"
@@ -57,21 +57,21 @@
           accusantium modi quidem, ipsam illum quis sed voluptatum quae eum
           fugit earum.
         </p>
-      </ui-sample-bordered-box>
+      </ui-sample-box-bordered>
     </ui-sample-grid>
 
     <ui-section-subtitle>
       {{ typography.otherUtilities.title }}
     </ui-section-subtitle>
     <ui-sample-grid :class="typography.otherUtilities.gridClasses">
-      <ui-sample-bordered-box
+      <ui-sample-box-bordered
         v-for="utility in typography.otherUtilities.utilities"
         :key="utility"
       >
         <div class="w-full" :class="utility">
           {{ utility }}
         </div>
-      </ui-sample-bordered-box>
+      </ui-sample-box-bordered>
     </ui-sample-grid>
   </ui-section-container>
 </template>

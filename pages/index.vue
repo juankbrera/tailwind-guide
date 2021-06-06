@@ -8,5 +8,6 @@
     <sections-spacing></sections-spacing>
     <sections-breakpoints></sections-breakpoints>
     <sections-states></sections-states>
+    <sections-flex></sections-flex>
   </div>
 </template>

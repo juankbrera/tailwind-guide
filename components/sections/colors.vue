@@ -8,7 +8,7 @@
 
     <div v-for="utility in colors.colorPalette.utilities" :key="utility">
       <ui-sample-grid :class="colors.colorPalette.gridClasses">
-        <ui-sample-bordered-box
+        <ui-sample-box-bordered
           v-for="level in colors.colorPalette.levels"
           :key="level"
           :class="'bg-' + utility + '-' + level"
@@ -19,7 +19,7 @@
           >
             {{ utility }}-{{ level }}
           </span>
-        </ui-sample-bordered-box>
+        </ui-sample-box-bordered>
       </ui-sample-grid>
     </div>
 
@@ -31,13 +31,13 @@
       texts and borders.
     </p>
     <ui-sample-grid :class="colors.examples.gridClasses">
-      <ui-sample-bordered-box
+      <ui-sample-box-bordered
         v-for="utility in colors.examples.utilities"
         :key="utility"
         :class="utility"
       >
         {{ utility }}
-      </ui-sample-bordered-box>
+      </ui-sample-box-bordered>
     </ui-sample-grid>
 
     <ui-section-subtitle>Customizing Colors</ui-section-subtitle>

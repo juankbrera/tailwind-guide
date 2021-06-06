@@ -96,23 +96,23 @@
 
     <ui-section-subtitle> Examples </ui-section-subtitle>
     <ui-sample-grid :class="sizing.widthExamples.gridClasses">
-      <ui-sample-bordered-box
+      <ui-sample-box-bordered
         v-for="utility in sizing.widthExamples.utilities"
         :key="utility"
         :class="utility"
       >
         {{ utility }}
-      </ui-sample-bordered-box>
+      </ui-sample-box-bordered>
     </ui-sample-grid>
 
     <ui-sample-grid :class="sizing.heightExamples.gridClasses">
-      <ui-sample-bordered-box
+      <ui-sample-box-bordered
         v-for="utility in sizing.heightExamples.utilities"
         :key="utility"
         :class="utility"
       >
         {{ utility }}
-      </ui-sample-bordered-box>
+      </ui-sample-box-bordered>
     </ui-sample-grid>
   </ui-section-container>
 </template>

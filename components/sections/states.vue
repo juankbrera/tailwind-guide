@@ -11,11 +11,9 @@
     <ui-section-subtitle> Hover / Active </ui-section-subtitle>
     <div class="mb-6">
       <div class="grid grid-cols-2 gap-6 auto-rows-fr">
-        <div
-          class="bg-gray-200 flex items-center justify-center rounded-xl pt-6"
-        >
-          <ui-button class="mb-0">Hover Me</ui-button>
-        </div>
+        <ui-sample-box class="flex items-center justify-center">
+          <ui-button class="mb-0 mt-6">Hover Me</ui-button>
+        </ui-sample-box>
 
         <!-- prettier-ignore -->
         <ui-code-block>
@@ -31,9 +29,9 @@
 
     <ui-section-subtitle> Focus </ui-section-subtitle>
     <div class="grid grid-cols-2 gap-6 auto-rows-fr mb-6">
-      <div class="bg-gray-200 flex items-center justify-center rounded-xl pt-6">
-        <ui-input placeholder="Click Here"></ui-input>
-      </div>
+      <ui-sample-box class="flex items-center justify-center">
+        <ui-input class="mt-6" placeholder="Click Here"></ui-input>
+      </ui-sample-box>
 
       <!-- prettier-ignore -->
       <ui-code-block>
