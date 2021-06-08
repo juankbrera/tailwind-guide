@@ -9,5 +9,6 @@
     <sections-breakpoints></sections-breakpoints>
     <sections-states></sections-states>
     <sections-flex></sections-flex>
+    <sections-grid></sections-grid>
   </div>
 </template>
